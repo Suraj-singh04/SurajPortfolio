@@ -14,7 +14,7 @@ import {
   Phone,
 } from "lucide-react";
 import { cn } from "../lib/utils";
-import { Theme } from "../components/theme";
+import { Theme } from "./theme";
 
 const testimonials = [
   {

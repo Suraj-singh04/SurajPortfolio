@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react"
-import { Tabs, TabsList, TabsTrigger } from "../components/ui/tabs"
+import { Tabs, TabsList, TabsTrigger } from "./ui/tabs"
 import { AnimatePresence, motion } from "framer-motion"
 import {
   Check,
@@ -20,8 +20,8 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu"
-import { RadioGroup, RadioGroupItem } from "../components/ui/radio-group"
+} from "./ui/dropdown-menu"
+import { RadioGroup, RadioGroupItem } from "./ui/radio-group"
 
 const themeIcons = {
   light: Sun,

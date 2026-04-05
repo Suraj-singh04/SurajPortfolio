@@ -1,4 +1,4 @@
-import { GlowCard } from "../components/spotlight-card";
+import { GlowCard } from "./spotlight-card";
 
 export function AboutMeComponents() {
   return (
